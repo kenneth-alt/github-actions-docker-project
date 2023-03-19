@@ -3,7 +3,7 @@ import express from "express";
 const app = express();
 
 app.get('/', function (req, res) {
-    res.send('{ "response": "Hello, this is the root directory" }');
+    res.send('{ "response": "Hello, this is the root path" }');
 });
 
 app.get('/path1', function (req, res) {
